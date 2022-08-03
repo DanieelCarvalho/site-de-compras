@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    background-color: rgb(254, 189, 69);
+    font-family: 'Nanum Gotnphic', sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    height: 50px;
+    width: 80%;
+    background-color:#FDEDD5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 80px;
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu figure {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.menuBarra {
+    height: 30px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.menuBolsa {
+    height: 30px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+main figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.imagem2 {
+    height: 500px;
+    width: 10px;
+}
+
+.pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.pedido h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pedido p {
+    font-size: 40px;
+    
+}
+
+.ingrediente {
+    width: 95%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ingrediente h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.descricao{
+    width: 95%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.descricao h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 95%;
+    height: 6vh;
+    margin-top: 10px;
+}
+
+form input {
+    color: black;
+}
+
+.quantidade {
+    width: 95%;
+    height: 8vh;
+    border: solid black 3px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantidade .adiciona {
+    margin-right: 10px;
+}
+
+.quantidade .diminui {
+    margin-left: 10px;
+}
+
+.quantidade button {
+    border: none;
+    font-size: 25px;
+}
+
+.adicionar {
+    background-color: black;
+    height: 7vh;
+    width: 95%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.adicionar h4 {
+    background-color: transparent;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+
+.numero {
+    font-size: 25px;
+}
+button{
+    cursor: pointer;
+}

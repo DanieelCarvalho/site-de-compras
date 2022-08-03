@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Compras</title>
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <figure>
+                <img class="menuBarra" src="img/ingles.png" alt="menu da página">
+            </figure>
+            <h1>Flavo</h1>
+            <figure>
+                <img class="menuBolsa" src="img/2.png" alt="ícone de uma bolsa">
+            </figure>
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img onclick="muda()" class="imagem" src="img/cosiness.png" alt="">
+        </figure>
+        <div class="pedido">
+            <h2 class="nome">PASSION</h2>
+            <p  class="preco"> R$15</p>
+        </div>
+        <div class="ingrediente">
+            <h3>WHAT'S INSIDE</h3>
+            <p>Chili, oregano, safran, saprika</p>
+        </div>
+        <div class="descricao">
+            <h3>WHY WE LOVE IT</h3>
+            <p>This one will add a little savoury falour to any flavor to any food and turn any meal to a culinary masterpiece.</p>
+        </div>
+        <form action="">
+            <input name="tipo" type="radio">BAG (75g)</input>
+            <input name="tipo" type="radio">JAR (150g)</input>
+           </form>
+        <div class="quantidade">
+            <button onclick="Subtracao()"class="diminui">-</button>
+            <p class="numero" ">1</p>
+            <button onclick="Soma()" class="adiciona">+</button>
+        </div>
+        <div class="adicionar">
+            <h4>ADD TO CART</h4>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
